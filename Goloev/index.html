@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+
+
+	<title>MarketPlace</title>
+</head>
+<body>
+	<header>
+		<div class="about justice widht_center">
+			<div class="about_left justice">
+				<ul class="justice">
+					<li><a href="#"><i class="uil uil-location-point"></i>Москва</a> </li>
+				    <li><i class="uil uil-wallet"><a href="#">Доставка и оплата</a></i></li>
+				    <li><i class="uil uil-sign-alt"><a href="#">Адрес и часы работы</a></i></li>
+			    </ul>
+			</div>
+			<div class="about_r justice ">
+					<ul class="justice">
+					<li><i class="uil uil-envelope-check"><a href="#">market@estatut.ru</a></i></li>
+				    <li><i class="uil uil-phone-pause"><a href="#">8 (968) 660-65-50</a></i></li>
+			    </ul>
+
+			</div>
+		</div>
+		<div class="seporator"></div>
+		<div class="search justice widht_center">
+			<div class="search_left justice">
+				<img src="img/logo.png" alt="">
+				
+               		
+
+				<div class="search_blok">				
+					<input type="text" placeholder ="Автор, название, ISBN">
+					<button class = "search_button JU">
+						<i class="uil uil-search"></i>
+						 <span>искать</span>
+					</button>
+				</div>
+
+			</div>
+			<div class="search_r justice" >
+				
+				<ul class="justice">
+					<li><i class="uil uil-bookmark-full"><a href="#">Отложено</a></i></li>
+				    <li><i class="uil uil-angry"><a href="#">Войти</a></i></li>
+				    <li><i class="uil uil-shopping-basket"><a href="#">Корзина</a></i></li>
+				</ul>
+			</div>
+		</div>
+		<div class="nav widht_center">	
+			<ul class="justice_start">
+				<li><a href="#"><i class="uil uil-list-ul"></i></a><a href="#">Каталог</a></li>
+				<li><a href="#">Авторы</a></li>
+				<li><a href="#">Новинки</a></li>
+				<li><a href="#"><i class="uil uil-tag"></i>Скидки</a></li>
+				<li><a href="#">Партнёрам</a></li>
+				<li><a href="#">Мы</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="main">
+
+		<div class="main_center widht_center justice">
+
+			<div class="main_l">
+				<div class="main_l_top">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+						  <div class="swiper-slide"><img src="img/Rectangle.png" alt=""></div>
+						  <div class="swiper-slide"><img src="img/Rectangle2.png" alt=""></div>
+						  <div class="swiper-slide"><img src="img/Rectangle3.png" alt=""></div>
+						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-pagination"></div>
+					  </div>
+				
+					  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+					</div>
+				<div class="main_l_bottom justice">
+					<div class="blok_1 blok_main justice">
+						<p><span>Бесплатно</span>	 доставим
+							<br>ваш заказ  при<br>
+							покупке от 2000 ₽</p>
+							<div class="circule">
+
+							</div>
+					</div>
+					<div class="blok_2 blok_main justice"> 
+					<p>Скидка <br>
+					при регистрации <br>
+					до <span>15%</span>	</p>
+						<div class="circule">
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_r">	
+				
+				
+				<div class="justice_around">
+					<h3>Книга дня</h3>
+					<div class="clock">99.33.88</div></div>
+			<a href="#">
+				<div class="main_img "><img src="img/book.png" alt=""></div>
+				<p>Корпоративное право</p>
+				<h4>Инвестирование: способы, риски, субъекты : монография</h4>
+				<h4>4 450 ₽</h4>
+			</a>
+<div class="main_button">	
+	<button class="basket"> <i class="uil uil-shopping-basket"></i><span>В корзину</span>		</button>
+	<button class = "flag"><i class="uil uil-bookmark-full"><a href="#"></a></i></button>
+</div>		
+		</div>
+		
+
+
+
+	</div>
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+		  cssMode: true,
+		  navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		  },
+		  pagination: {
+			el: ".swiper-pagination",
+		  },
+		  mousewheel: true,
+		  keyboard: true,
+		});
+	  </script>
+</body>
+
+</html>
